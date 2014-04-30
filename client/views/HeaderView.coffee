@@ -9,7 +9,7 @@ Transform = require 'famous/core/Transform'
 
 
 class HeaderView extends View
-  title: 'Pegg'
+  title: 'Starter Kit'
   cssPrefix: 'header'
 
   constructor: ->
@@ -21,9 +21,9 @@ class HeaderView extends View
     @background = new Surface
       classes: ["#{@cssPrefix}__background"]
 
-    @logo = new ImageSurface
-      size: [55, 40]
-      content: 'images/mark_tiny.png'
+    # @logo = new ImageSurface
+    #   size: [55, 40]
+    #   content: 'images/logo.png'
 
     @title = new Surface
       content: @title
@@ -31,10 +31,10 @@ class HeaderView extends View
 
     @add @background
 
-    @add new Modifier
-      origin: [0, 0]
-      transform: Transform.translate 10, 10
-    .add @logo
+    # @add new Modifier
+    #   origin: [0, 0]
+    #   transform: Transform.translate 10, 10
+    # .add @logo
 
     @add new Modifier
       transform: Transform.translate 0, 10

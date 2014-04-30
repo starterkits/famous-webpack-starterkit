@@ -25,11 +25,11 @@ mainContext = Engine.createContext()
 content = new ScrollView
   direction: Utility.Direction.Y
 
+body = new Surface
+  content: 'Test'
+
 content.sequenceFrom [
-  #editQuestion
-  #imageUpload
-  # listQuestions
-  imageEdit
+  body
 ]
 
 # Build layout
