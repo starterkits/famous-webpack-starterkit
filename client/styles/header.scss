@@ -1,0 +1,13 @@
+.header__background, .footer {
+  background-color: $nav-bg;
+  color: $nav-color;
+  line-height: 100px;
+  text-align: center;
+}
+
+.header__title {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: $nav-color;
+}
