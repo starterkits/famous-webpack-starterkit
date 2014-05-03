@@ -54,11 +54,9 @@ of useful plugins and example tasks that could be useful later on.
 
 # Directory Structure
 
-* **/bin**: startup and task scripts
 * **/client**: all code and assets for display and interaction; javascript, html, images, css, etc.
 * **/config**: config vars and initializers
 * **/lib**: shared code that doesn't obviously belong in client or server
-* **/server**: all server-side and api code
 
 
 # Dependencies
